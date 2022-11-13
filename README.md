@@ -1,1 +1,2 @@
-# goit-markup-hw-06
+# repozytorium-JP
+It is my first repository!
