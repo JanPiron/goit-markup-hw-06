@@ -16,7 +16,7 @@ rel="stylesheet">
 </head>
 
 <body>
-    <div class="backdrop " data-modal>
+    <div class="backdrop is-hidden" data-modal>
         
         <div class="modal">
             <button class="modal-btn" data-modal-close>
@@ -36,7 +36,7 @@ rel="stylesheet">
                             height="18" >
                             <use href="./images/icons.svg#icon-person-black-18dp-1" ></use>
                         </svg> 
-                        <input  class="input" type="text" id="name" >
+                        <input  class="input" type="text" id="name" name="name">
                 </fieldset>       
                     
                 <fieldset class="fieldset" >
@@ -46,7 +46,7 @@ rel="stylesheet">
                             height="18" >
                             <use href="./images/icons.svg#icon-phone-black-18dp-1" ></use>
                         </svg> 
-                        <input class="input" type="tel" id="phone" >
+                        <input class="input" type="tel" id="phone" name="phone-number">
                 </fieldset>
                 
                 <fieldset class="fieldset" >
@@ -56,12 +56,12 @@ rel="stylesheet">
                             height="18" >
                             <use href="./images/icons.svg#icon-email-black-18dp-1" ></use>
                         </svg> 
-                        <input class="input" type="email" id="email" >
+                        <input class="input" type="email" id="email" name="email">
                 </fieldset>  
                 
                 <fieldset class="fieldset fourth" >
                     <label class="label text-label" for="textarea" name="comment" >Komentarz</label>
-                    <textarea class="textarea" placeholder="Wprowadź tekst" id="textarea" ></textarea>
+                    <textarea class="textarea" placeholder="Wprowadź tekst" id="textarea" name="comment"></textarea>
                 </fieldset>
 
                 <div>
@@ -85,7 +85,7 @@ rel="stylesheet">
                                                   
                     
 
-                    <button class="form-button" type="button" type="submit"><span class="form-btn-span" >Wyślij</span></button>
+                    <button class="form-button"  type="submit"><span class="form-btn-span" >Wyślij</span></button>
                
             </form>
 
@@ -520,7 +520,7 @@ rel="stylesheet">
             <div class="footer-contain" >
                 <p class="footer-p">Zapisz się do newslettera</p>
                 <input class="footer-input"  type="email" placeholder="E-mail"  > 
-                <button class="footer-btn"  type="button" type="submit"><span class="footer-btn-span">Zapisz się</span>
+                <button class="footer-btn"  type="submit"><span class="footer-btn-span">Zapisz się</span>
                     <svg class="footer-icon-btn">
                         <use  href="./images/icons.svg#icon-icon-send"></use>
                     </svg>

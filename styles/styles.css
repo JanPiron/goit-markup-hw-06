@@ -831,7 +831,7 @@ font-family: 'Roboto';
 
 
 .form-icon {
-    transition: transform 2500ms;
+    transition: transform 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: fill;
     fill:#212121;
